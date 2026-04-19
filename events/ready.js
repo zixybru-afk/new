@@ -1,9 +1,9 @@
 const { ActivityType } = require('discord.js');
 
 const statuses = [
-  { name: '/help | Advanced Bot', type: ActivityType.Watching },
-  { name: 'your server', type: ActivityType.Watching },
-  { name: 'with slash commands', type: ActivityType.Playing },
+  { name: '/help', type: ActivityType.Watching },
+  { name: 'Diyon On Top', type: ActivityType.Watching },
+  { name: 'Ready To Assist', type: ActivityType.Playing },
 ];
 
 let statusIndex = 0;
