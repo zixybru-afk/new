@@ -2,7 +2,7 @@ const { Events, EmbedBuilder } = require('discord.js');
 const { store } = require('../utils/store');
 
 module.exports = {
-  name: aEvents.GuildMemberAdd,
+  name: Events.GuildMemberAdd,
   async execute(member, client) {
     const guildId = member.guild.id;
 
